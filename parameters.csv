@@ -1,0 +1,8 @@
+Parameter,Description,Value,Units
+V_p,Pore volume,110,mL
+tStar,Time for one V_p,3300,s
+L,Core Length,30.48,cm 
+lo_x,Lowest value of linear C_D,0.2,(Dimensionless)
+hi_x,Highest value of linear C_D,0.95,(Dimensionless)
+lo_y,Lowest U to plot,-5,cm^{3/2} 
+hi_y,Highest U to plot,5,cm^{3/2}
