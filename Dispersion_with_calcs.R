@@ -17,7 +17,7 @@
 #'
 #' Detailed instructions for using this script are in `Dispersion_instructions.pdf`.
 #' Briefly, the data to plot should be in `data.csv` with headings _U_ and _C_D_,
-#' and paramters for calculations and for fine-tuning the range of the final
+#' and parameters for calculations and for fine-tuning the range of the final
 #' graph should be in `parameters.csv` with, at a minimum, columns headed
 #' _Parameter_ and _Value_. Both input files need to be saved in the same folder
 #' as this script. The parameters `lo_y` and `hi_y` dictate the range
@@ -160,7 +160,7 @@ dispersion_coefficient <- function(L, U10, U90, V_p, tStar){
 
 # THIS IS WHERE WE DO STUFF
 
-# Load tha pramaters from a file
+# Load tha parameters from a file
 parameters <- load_parameters("parameters.csv")
 
 # Pull parameters out to named variables to make calculations clearer
