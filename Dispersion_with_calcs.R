@@ -1,7 +1,7 @@
 #' ---
 #' title: "Graphical Determination of Dispersion Coefficient"
 #' author: "Stephen Johnson"
-#' date: "September 28, 2016"
+#' date: "February 27, 2017"
 #' output: html_document
 #' ---
 
@@ -160,7 +160,7 @@ dispersion_coefficient <- function(L, U10, U90, V_p, tStar){
 
 # THIS IS WHERE WE DO STUFF
 
-# Load tha parameters from a file
+# Load the parameters from a file
 parameters <- load_parameters("parameters.csv")
 
 # Pull parameters out to named variables to make calculations clearer
